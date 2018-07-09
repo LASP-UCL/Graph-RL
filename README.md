@@ -70,7 +70,7 @@ Implementation of LSTDQ solver with standard matrix solver (the algorithm from F
 ### learning_maze.py
 This class implements maze environments such as the one depicted below.
 
-![alt text](https://github.com/Sephora-M/graph-rl/blob/master/twowalls_maze.png)
+![alt text](https://github.com/LASP-UCL/Graph-RL/blob/master/twowalls_maze.png)
 
 In such environment, the green states are accessible rooms, the dark purple states are strict walls and the
 yellow state is the goal state. An agent can be initially placed in any accessible state and it aims
@@ -88,7 +88,7 @@ the true value function computed using value iteration algorithm.
 For the environment described in the previous subsection, the goal is to approximate the following 
 value functions as closely as possible.
 
-![alt text](https://github.com/Sephora-M/graph-rl/blob/master/twowalls_value.png)
+![alt text](https://github.com/LASP-UCL/Graph-RL/blob/master/twowalls_value.png)
 
 ### PVF_simulation.py
 Code for running simulations. It can be called directly from the terminal as follows \
